@@ -1,0 +1,174 @@
+/*GERAL*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:400");
+*{
+	box-sizing: border-box;
+}	
+h1,h2,h3,h4,li{margin:0; font-family: "Open Sans"}
+a{text-decoration: none;}
+body{margin:0; font-family: "Roboto";}
+
+/*TOPO*/
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1%;
+	padding-top: 0.5%;
+	background-color: #ECECEC;
+}
+/*MENU*/
+.logo{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: 4%;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+li a{
+	color: #064766;
+}	
+.navbar {
+	list-style: none;
+}
+.navbar li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.navbar li a:hover{
+	color: skyblue;
+}
+.shopping{
+	margin-left: 20px;
+	margin-right: 26px;
+
+}
+
+/*Artigo Main*/
+.row{
+	margin-left: 4%;
+	display: flex;
+	padding-top: 1%;
+}
+
+.article-header h2{
+	font-size: 300%
+}
+
+.column1{
+	width: 70%;
+}
+
+.imagem img{
+	width: 85%;
+}
+
+.texto1{
+	padding-right: 15%;
+}
+.reservas{
+	padding-top:2%;
+}
+.reservas a{
+	text-decoration: none;
+	color:#0082A2;
+	font-weight: bold;
+
+}
+
+.article-header h3{
+	margin-top: 1%;
+	background-color: #C2B32C;
+	padding-left:1%;
+	margin-right: 88%;
+	font-size: 70%;
+	color: white;
+	margin-bottom: 1%;
+}
+
+/*Outros artigos*/
+.column2{
+	width: 30%;
+	padding-right: 4%;
+}
+
+.articles-side h4{
+	text-align: right;
+	color:white;
+	background-color: #0082A2;
+	margin-left: 69%;
+	padding-right: 2%;
+	font-size: larger;
+}
+.artigo1{
+	margin-top: 5%;
+	background-color: #ECECEC;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin-bottom: 20%;
+}
+.artigos img{
+	width: 100%;
+}
+
+.artigo1 h3{
+	padding-top: 2%;
+	color:#505050
+}
+.artigo1 p{
+	font-size: small;
+}
+
+.btn{
+	text-align: center;
+	color: white;
+	background-color: #D9D9D9;
+	padding-top: 3%;
+	padding-bottom:3% ;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.artigo2{
+	margin-top: 5%;
+	background-color: #ECECEC;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin-bottom: 10%;
+}
+.artigo2 h3{
+	padding-top: 2%;
+	color:#505050
+}
+.artigo2 p{
+	font-size: small;
+}
+/*FOOTER*/
+.footer{
+	display: flex;
+	background-color: #D9D9D9;
+	padding-left: 4%;
+	padding-top:2%;
+	padding-bottom: 2%;
+	padding-right: 4%;
+}
+
+.ftr-left{
+	color:whitesmoke;
+	text-align: left;
+	width: 50%;
+}
+
+.ftr-right{
+	color:whitesmoke;
+	text-align: right;
+	width: 50%;
+}
+
